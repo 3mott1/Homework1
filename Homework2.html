@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Завжди знаходиться у роті, а проковтнути не можна.</h1>
+    <button id = "btn">Answer</button>
+    <p id="res"></p>
+    <h1>Цвіте на обличчі та зростає від радості.</h1>
+    <button id = "btn2">Answer</button>
+    <p id="res2"></p>
+    <h1>П’ять синів у 2-х матерів, а ім’я одне всім.</h1>
+    <button id = "btn3">Answer</button>
+    <p id="res3"></p>
+    <h1>Це не саджають і не сіють – воно виростає самостійно.</h1>
+    <button id = "btn4">Answer</button>
+    <p id="res4"></p>
+    <h1>Щоб крутитися веселіше, натискай її швидше.</h1>
+    <button id = "btn5">Answer</button>
+    <p id="res5"></p>
+    <script>
+        btn = document.getElementById("btn");
+        btn2 = document.getElementById("btn2")
+        btn3 = document.getElementById("btn3");
+        btn4 = document.getElementById("btn4");
+        btn5 = document.getElementById("btn5");
+        res = document.getElementById("res");
+        res2 = document.getElementById("res2");
+        res3 = document.getElementById("res3");
+        res4 = document.getElementById("res4");
+        res5 = document.getElementById("res5");
+        btn.addEventListener("click",fnk);
+        btn2.addEventListener("click",fnk2);
+        btn3.addEventListener("click",fnk3);
+        btn4.addEventListener("click",fnk4);
+        btn5.addEventListener("click",fnk5);
+        function fnk(){
+            console.log("ok");
+            res.innerHTML = "Язик";
+            
+
+        }
+        function fnk2(){
+            console.log("ok");
+            res2.innerHTML = "Посмішка";
+            
+
+        }
+        function fnk3(){
+            console.log("ok");
+            res3.innerHTML = "Пальці";
+            
+
+        }
+        function fnk4(){
+            console.log("ok");
+            res4.innerHTML = "Волосся";
+            
+
+        }
+        function fnk5(){
+            console.log("ok");
+            res5.innerHTML = "Дзиґа";
+            
+
+        }
+    </script>
+</body>
+</html>
